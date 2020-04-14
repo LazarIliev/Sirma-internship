@@ -1,0 +1,13 @@
+That way, we pay no conversion cost
+if a Day object never executes any date arithmeti
+c. Conversely, if
+ an object
+  is constructed
+with the private Day(int
+ julian) constructor, the year-month-date representation
+should only be generated
+ when one of the
+ get methods is called. After all, maybe the
+object is
+used for intermediate
+ calculations only

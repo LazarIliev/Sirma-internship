@@ -1,0 +1,4 @@
+Stock container:
+Description:bread Quantity:5
+Sold container:
+Description:bread Quantity:5

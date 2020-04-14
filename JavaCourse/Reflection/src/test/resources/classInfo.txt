@@ -1,0 +1,4 @@
+public java.lang.String com.sirma.javacourse.reflection.readinginfoaboutclass.RandomClass.publicString : public string
+private int com.sirma.javacourse.reflection.readinginfoaboutclass.RandomClass.privateInt : 1
+protected boolean com.sirma.javacourse.reflection.readinginfoaboutclass.RandomClass.protectedBool : true
+char com.sirma.javacourse.reflection.readinginfoaboutclass.RandomClass.defaultChar : a

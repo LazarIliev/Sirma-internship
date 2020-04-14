@@ -1,0 +1,4 @@
+Private fields:
+logger:org.slf4j.simple.SimpleLogger(com.sirma.javacourse.reflection.privatemembers.PrivateClass)
+id:0
+count:9
