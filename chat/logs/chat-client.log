@@ -888,3 +888,18 @@ java.net.SocketException: Socket closed
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at com.sirma.javacourse.chatclient.controllers.ClientController.run(ClientController.java:79) [classes/:?]
 	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2020-06-04 17:28:23.207 [Thread-1] ClientController - Socket closed
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:?]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:168) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:140) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at com.sirma.javacourse.chatclient.controllers.ClientController.run(ClientController.java:79) [classes/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]

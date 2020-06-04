@@ -427,3 +427,12 @@ java.net.SocketException: Interrupted function call: accept failed
 	at java.net.ServerSocket.accept(ServerSocket.java:524) ~[?:?]
 	at com.sirma.javacourse.chatserver.server.ServerController.run(ServerController.java:92) [classes/:?]
 	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2020-06-04 17:28:32.301 [Thread-0] ServerController - Interrupted function call: accept failed
+java.net.SocketException: Interrupted function call: accept failed
+	at java.net.PlainSocketImpl.accept0(Native Method) ~[?:?]
+	at java.net.PlainSocketImpl.socketAccept(PlainSocketImpl.java:159) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:458) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:556) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:524) ~[?:?]
+	at com.sirma.javacourse.chatserver.server.ServerController.run(ServerController.java:92) [classes/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
